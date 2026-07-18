@@ -54,11 +54,8 @@ export default function App() {
   <Route path="dashboard" element={<Dashboard />} />
   <Route path="gallery" element={<GalleryManagement />} />
   <Route path="food" element={<FoodManagement />} />
-  <Route path="/admin/rooms" element={<RoomsManagement />}/>
-  <Route
-  path="/admin/reviews"
-  element={<ReviewsManagement />}
-/>
+  <Route path="rooms" element={<RoomsManagement />} />
+  <Route path="reviews"element={<ReviewsManagement />} />
 </Route>
 
       </Routes>
