@@ -27,6 +27,12 @@ export default function Login() {
       setError(error.message);
       return;
     }
+    if (error) {
+  setError(error.message);
+  return;
+}
+
+localStorage.setItem("adminLoggedIn", "true");
 
     navigate("/admin/dashboard");
   };
